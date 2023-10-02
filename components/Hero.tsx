@@ -78,7 +78,10 @@ const Hero = () => {
                     }}
                   >
                     <Button>
-                      <Link href="/#our-vision" className="py-3 px-6">
+                      <Link
+                        href="/#our-vision"
+                        className="py-3 px-6 font-medium tracking-wider"
+                      >
                         {item.cta}
                       </Link>
                     </Button>
