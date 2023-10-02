@@ -15,7 +15,7 @@ import { Button } from "./ui/button";
 
 const Hero = () => {
   return (
-    <section className="w-full h-[calc(100vh-4rem)]">
+    <section className="w-full h-[calc(100vh-4rem)] mt-16">
       <Swiper
         pagination={{
           clickable: true,
