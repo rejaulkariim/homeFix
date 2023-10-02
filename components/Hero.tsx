@@ -11,7 +11,7 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import Overlay from "./Overlay";
-import { Button } from "./ui/button";
+import { Button } from "./ui/Button";
 
 const Hero = () => {
   return (
