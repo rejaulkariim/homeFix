@@ -1,7 +1,7 @@
 "use client";
 import { useTheme } from "next-themes";
-import { FiMoon } from "react-icons/Fi";
 import { BiSun } from "react-icons/bi";
+import { FiMoon } from "react-icons/fi";
 import { Button } from "./ui/button";
 
 const ModeToggle = () => {
