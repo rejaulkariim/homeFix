@@ -1,7 +1,6 @@
 "use client";
 import { useTheme } from "next-themes";
-import { BiSun } from "react-icons/bi";
-import { FiMoon } from "react-icons/fi";
+import { BiSolidMoon, BiSun } from "react-icons/bi";
 import { Button } from "./ui/button";
 
 const ModeToggle = () => {
@@ -33,7 +32,7 @@ const ModeToggle = () => {
           </>
         ) : (
           <>
-            <FiMoon
+            <BiSolidMoon
               size={22}
               className="text-primary rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100"
             />
