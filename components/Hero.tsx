@@ -42,13 +42,13 @@ const Hero = () => {
                 className="w-full h-full object-cover"
               />
               <Overlay />
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center z-[2] space-y-4 text-white w-full md:w-auto">
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center z-[2] space-y-4 text-white px-2 w-full">
                 <div className="overflow-hidden">
                   <motion.h1
                     initial={{ y: "100%" }}
                     whileInView={{ y: 0 }}
                     transition={{ duration: 1, ease: "easeInOut" }}
-                    className="text-2xl md:text-5xl leading-10 font-bold uppercase "
+                    className="text-3xl md:text-7xl leading-10 font-bold uppercase "
                   >
                     {item.heading}
                   </motion.h1>
@@ -62,7 +62,7 @@ const Hero = () => {
                       ease: "easeInOut",
                       delay: 0.3,
                     }}
-                    className="text-sm md:text-base"
+                    className="text-sm md:text-lg"
                   >
                     {item.paragraph}
                   </motion.p>
@@ -79,7 +79,7 @@ const Hero = () => {
                   >
                     <Button>
                       <Link
-                        href="/#our-vision"
+                        href={""}
                         className="py-3 px-6 font-medium tracking-wider"
                       >
                         {item.cta}

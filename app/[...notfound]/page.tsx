@@ -22,7 +22,7 @@ const NotfoundPage = () => {
             helpful links:
           </p>
 
-          <div className="flex items-center w-full mt-6 gap-x-3 shrink-0 sm:w-auto">
+          <div className="flex justify-center items-center w-full mt-6 gap-x-3">
             <Button variant="outline" onClick={() => router.back()}>
               <BiArrowBack size={20} className="text-primary mr-2" />
 

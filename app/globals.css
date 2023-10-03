@@ -90,3 +90,7 @@
 .swiper-pagination-bullet-active {
   background-color: #fb6d10 !important;
 }
+
+.wrapper {
+  @apply py-10 px-4 md:px-10;
+}
