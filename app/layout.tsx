@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import type { Metadata } from "next";
 import { Bai_Jamjuree } from "next/font/google";
@@ -22,7 +21,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={baiJamjuree.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <Navbar />
           {children}
         </ThemeProvider>
       </body>

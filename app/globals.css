@@ -48,7 +48,7 @@
     --primary: 30, 91%, 50%, 1;
     --primary-foreground: 222.2 47.4% 11.2%;
 
-    --secondary: 24, 97%, 52%, 1;
+    --secondary: 10, 84%, 51%, 1;
     --secondary-foreground: 210 40% 98%;
 
     --muted: 217.2 32.6% 17.5%;
@@ -89,6 +89,47 @@
 
 .swiper-pagination-bullet-active {
   background-color: #fb6d10 !important;
+}
+
+/* BROWSER STYLES */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fb6d10;
+  height: 10%;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #fb6d10;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1d232a;
+}
+
+::selection {
+  color: #fff;
+  background-color: #fb6d10;
+}
+
+.wrapper {
+  @apply md:p-4 p-2;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(216, 216, 216);
+  border-radius: 40px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
 }
 
 .wrapper {

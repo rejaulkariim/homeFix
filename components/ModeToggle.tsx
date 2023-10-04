@@ -6,8 +6,6 @@ import { Button } from "./ui/Button";
 const ModeToggle = () => {
   const { theme, setTheme } = useTheme();
 
-  console.log(theme);
-
   const handleThemeChange = () => {
     if (theme === "light") {
       setTheme("dark");
