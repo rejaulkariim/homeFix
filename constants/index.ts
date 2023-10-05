@@ -7,6 +7,7 @@ export const heros = [
     paragraph:
       "Transforming Your House into Your Dream Home: Where Your Vision Meets Our Craftsmanship, Creating a Space You'll Love to Live In.",
     cta: "Learn More",
+    link: "/home-renovation",
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export const heros = [
     paragraph:
       "Ensuring Longevity and Peak Performance for Your Electronics: Our Expert Technicians Provide Comprehensive Service and Maintenance to Keep Your Devices Running Smoothly.",
     cta: "Learn More",
+    link: "/electronics-service",
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ export const heros = [
     paragraph:
       "Beat the Heat and Enjoy Ultimate Comfort: Our Professional Air Conditioning Service and Installation Team Guarantees Cool Relief, Even in the Hottest Months.",
     cta: "Learn More",
+    link: "/ac-service",
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ export const heros = [
     paragraph:
       "Crafting Your Ideal Kitchen Space: Let Us Transform Your Culinary Haven with Custom-Designed Cabinets Tailored to Your Taste and Lifestyle.",
     cta: "Learn More",
+    link: "/kitchen-cabinet-design",
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ export const heros = [
     paragraph:
       "Protecting Your Home from the Elements: Our Waterproofing Solutions Shield Your Precious Space, Ensuring Peace of Mind in Any Weather.",
     cta: "Learn More",
+    link: "/waterproofing",
   },
 ];
 
@@ -65,7 +70,7 @@ export const services = [
     description:
       "Ensuring Longevity and Peak Performance for Your Electronics: Our Expert Technicians Provide Comprehensive Service and Maintenance to Keep Your Devices Running Smoothly.",
     cta: "Learn More",
-    link: "/electronics-service", // Dynamic link for Electronics Service & Maintenance
+    link: "/electronics-service",
   },
   {
     id: 3,
@@ -85,7 +90,6 @@ export const services = [
     description:
       "Crafting Your Ideal Kitchen Space: Let Us Transform Your Culinary Haven with Custom-Designed Cabinets Tailored to Your Taste and Lifestyle.",
     cta: "Learn More",
-    link: "/kitchen-cabinet-design", // Dynamic link for Kitchen Cabinet Design
   },
   {
     id: 5,
@@ -95,6 +99,6 @@ export const services = [
     description:
       "Protecting Your Home from the Elements: Our Waterproofing Solutions Shield Your Precious Space, Ensuring Peace of Mind in Any Weather.",
     cta: "Learn More",
-    link: "/waterproofing", // Dynamic link for Waterproofing
+    link: "/waterproofing",
   },
 ];

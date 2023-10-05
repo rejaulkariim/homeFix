@@ -79,7 +79,7 @@ const Hero = () => {
                   >
                     <Button>
                       <Link
-                        href={""}
+                        href={item.link}
                         className="py-3 px-6 font-medium tracking-wider"
                       >
                         {item.cta}

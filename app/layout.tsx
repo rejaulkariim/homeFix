@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import type { Metadata } from "next";
 import { Bai_Jamjuree } from "next/font/google";
@@ -10,6 +11,8 @@ const baiJamjuree = Bai_Jamjuree({
 
 export const metadata: Metadata = {
   title: "Fix your home",
+  description:
+    "Transform your property with our expert services! From custom-designed kitchen cabinets to air conditioning service and installation, waterproofing, and home renovation, we've got your needs covered. Trust us to bring your vision to life and enhance the comfort, style, and functionality of your home or business in Malaysia.",
 };
 
 export default function RootLayout({
@@ -21,6 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={baiJamjuree.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <Navbar />
           {children}
         </ThemeProvider>
       </body>

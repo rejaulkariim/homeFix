@@ -42,7 +42,7 @@ const Services = () => {
                 {item.description.substring(0, 90)}...
               </p>
               <Button asChild>
-                <Link href={item.link} className="">
+                <Link href={`services/${item.link}`} className="">
                   {item.cta}
                 </Link>
               </Button>
