@@ -5,7 +5,7 @@ export const metadata: Metadata = {
 };
 
 const ElectronicsServicePage = () => {
-  return <section>electronics-service</section>;
+  return <main className="mt-16">electronics-service</main>;
 };
 
 export default ElectronicsServicePage;

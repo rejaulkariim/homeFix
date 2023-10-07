@@ -2,12 +2,11 @@
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from "@/components/ui/Sheet";
 
+import { navlinks } from "@/constants";
 import Link from "next/link";
 import { HiMenuAlt1 } from "react-icons/hi";
 import ModeToggle from "./ModeToggle";
@@ -27,11 +26,11 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="hidden md:flex gap-4 items-center text-foreground">
-        <Link href="/">Renovation</Link>
-        <Link href="/">Waterproofing</Link>
-        <Link href="/">Electronics Service</Link>
-        <Link href="/">Air Conditioning Service</Link>
-        <Link href="/">Kitchen Cabinet Design</Link>
+        {navlinks.map((item) => (
+          <Link href={item.link} key={item.id} className="text-gradient ">
+            {item.cta}
+          </Link>
+        ))}
       </div>
 
       <div className="flex items-center gap-2">
@@ -43,11 +42,17 @@ const Navbar = () => {
             </SheetTrigger>
             <SheetContent side="left">
               <SheetHeader>
-                <SheetTitle>Are you sure absolutely sure?</SheetTitle>
-                <SheetDescription>
-                  This action cannot be undone. This will permanently delete
-                  your account and remove your data from our servers.
-                </SheetDescription>
+                <div className="flex flex-col items-start gap-4 text-foreground">
+                  {navlinks.map((item) => (
+                    <Link
+                      href={item.link}
+                      key={item.id}
+                      className="py-2 w-5/6 mx-auto bg-gradient-to-r from-secondary to-primary text-white rounded-lg"
+                    >
+                      {item.cta}
+                    </Link>
+                  ))}
+                </div>
               </SheetHeader>
             </SheetContent>
           </Sheet>

@@ -124,7 +124,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(216, 216, 216);
+  background-color: #fb6d10;
   border-radius: 40px;
 }
 
@@ -134,4 +134,8 @@
 
 .wrapper {
   @apply py-10 px-4 md:px-10;
+}
+
+.text-gradient:hover {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
 }

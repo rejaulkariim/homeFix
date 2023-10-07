@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 };
 
 const HomeRenovationPage = () => {
-  return <div>HomeRenuvationPage</div>;
+  return <main className="mt-16">HomeRenuvationPage</main>;
 };
 
 export default HomeRenovationPage;

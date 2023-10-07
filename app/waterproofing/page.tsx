@@ -6,7 +6,7 @@ export const metadata: Metadata = {
 };
 
 const WaterProofingPage = () => {
-  return <main>WaterProofingPage</main>;
+  return <main className="mt-16">WaterProofingPage</main>;
 };
 
 export default WaterProofingPage;

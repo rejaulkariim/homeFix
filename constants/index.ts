@@ -60,7 +60,7 @@ export const services = [
     description:
       "Transforming Your House into Your Dream Home: Where Your Vision Meets Our Craftsmanship, Creating a Space You'll Love to Live In.",
     cta: "Learn More",
-    link: "/home-renovation", // Dynamic link for Home Renovation
+    link: "/home-renovation",
   },
   {
     id: 2,
@@ -90,6 +90,7 @@ export const services = [
     description:
       "Crafting Your Ideal Kitchen Space: Let Us Transform Your Culinary Haven with Custom-Designed Cabinets Tailored to Your Taste and Lifestyle.",
     cta: "Learn More",
+    link: "/kitchen-cabinet-design",
   },
   {
     id: 5,
@@ -101,4 +102,12 @@ export const services = [
     cta: "Learn More",
     link: "/waterproofing",
   },
+];
+
+export const navlinks = [
+  { id: 1, cta: "Renovation", link: "/home-renovation" },
+  { id: 2, cta: "Electronics Service", link: "/electronics-service" },
+  { id: 3, cta: "Electronics Service", link: "/kitchen-cabinet-design" },
+  { id: 4, cta: "AC Service", link: "/ac-service" },
+  { id: 5, cta: "Waterproofing", link: "/waterproofing" },
 ];
