@@ -79,8 +79,8 @@ const Hero = () => {
                   >
                     <Button>
                       <Link
-                        href={item.link}
-                        className="py-3 px-6 font-medium tracking-wider"
+                        href={`services/${item.link}`}
+                        className="py-3 px-6 font-medium tracking-wider uppercase"
                       >
                         {item.cta}
                       </Link>
