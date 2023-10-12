@@ -11,22 +11,42 @@ export const heros = [
     gallary: [
       {
         id: 1,
-        src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991309/home_fix/ohbh4nbe0vf4l6gsmta5.jpg",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697143240/home_fix/tkiqbmrdr0wfixtqjpxy.jpg",
         alt: "Two volunteers carrying food",
       },
       {
         id: 2,
-        src: "https://images.pexels.com/photos/6995212/pexels-photo-6995212.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697144623/home_fix/litdhnxykrkmydbzqsow.jpg",
         alt: "Volunteers packing food",
       },
       {
         id: 3,
-        src: "https://images.pexels.com/photos/6646917/pexels-photo-6646917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697143240/home_fix/usaphqbizo0obsrk5sat.jpg",
         alt: "Volunteers assisting an elderly person",
       },
       {
         id: 4,
-        src: "https://images.pexels.com/photos/3996734/pexels-photo-3996734.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697145121/home_fix/vuamw51ar4tlqzchefel.jpg",
+        alt: "Man in blue clothing giving an old man water",
+      },
+      {
+        id: 5,
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697145121/home_fix/np5z7rfhso0suqtaigqx.jpg",
+        alt: "Man in blue clothing giving an old man water",
+      },
+      {
+        id: 6,
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697145120/home_fix/sbnltla38i01b1dallya.jpg",
+        alt: "Man in blue clothing giving an old man water",
+      },
+      {
+        id: 7,
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697145120/home_fix/mahpu2nevcpnnuuensta.jpg",
+        alt: "Man in blue clothing giving an old man water",
+      },
+      {
+        id: 8,
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697145119/home_fix/v5plktgho9rhhs451o7m.jpg",
         alt: "Man in blue clothing giving an old man water",
       },
     ],
@@ -44,42 +64,42 @@ export const heros = [
       {
         id: "1",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137400/home_fix/tnvoxa2h0cyppmgveqk0.jpg",
-        alt: "kitchen cabinet design",
+        alt: "Get expert electronics service and repair. Your trusted source for fixing your gadgets and appliances.",
       },
       {
         id: "2",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991604/home_fix/jcmdzxeotp9mn2scvqvo.jpg",
-        alt: "kitchen cabinet design",
+        alt: "Get expert electronics service and repair. Your trusted source for fixing your gadgets and appliances.",
       },
       {
         id: "3",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137400/home_fix/pspbq2rneez7eobqpobn.jpg",
-        alt: "kitchen cabinet design",
+        alt: "Get expert electronics service and repair. Your trusted source for fixing your gadgets and appliances.",
       },
       {
         id: "4",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137400/home_fix/ktazr2fzkhrmkpiwpo10.jpg",
-        alt: "kitchen cabinet design",
+        alt: "Get expert electronics service and repair. Your trusted source for fixing your gadgets and appliances.",
       },
       {
         id: "5",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137400/home_fix/mzdyewolkad3w0lbsm75.jpg",
-        alt: "kitchen cabinet design",
+        alt: "Get expert electronics service and repair. Your trusted source for fixing your gadgets and appliances.",
       },
       {
         id: "6",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137399/home_fix/w3bn3rbzrfzvo4fg1kcm.jpg",
-        alt: "kitchen cabinet design",
+        alt: "Get expert electronics service and repair. Your trusted source for fixing your gadgets and appliances.",
       },
       {
         id: "7",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137399/home_fix/adnqh6cshgxjwn6morxi.jpg",
-        alt: "kitchen cabinet design",
+        alt: "Get expert electronics service and repair. Your trusted source for fixing your gadgets and appliances.",
       },
       {
         id: "8",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137758/home_fix/rtgdqnpp68vh3bf5jelk.jpg",
-        alt: "kitchen cabinet design",
+        alt: "Get expert electronics service and repair. Your trusted source for fixing your gadgets and appliances.",
       },
     ],
   },
@@ -96,17 +116,42 @@ export const heros = [
       {
         id: "1",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991610/home_fix/e74udzhq6hgypa9lkzep.jpg",
-        alt: "kitchen cabinet design",
+        alt: "Stay cool with professional AC service and installation. Keep your space comfortable year-round.",
       },
       {
         id: "2",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991610/home_fix/epgsmf6knm93ynkzix7w.jpg",
-        alt: "kitchen cabinet design",
+        alt: "Stay cool with professional AC service and installation. Keep your space comfortable year-round.",
       },
       {
         id: "3",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991606/home_fix/rfg1z8bad6advvxyelwc.jpg",
-        alt: "kitchen cabinet design",
+        alt: "Stay cool with professional AC service and installation. Keep your space comfortable year-round.",
+      },
+      {
+        id: "4",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697142905/home_fix/chfd4kew9pothheb9bp8.jpg",
+        alt: "Stay cool with professional AC service and installation. Keep your space comfortable year-round.",
+      },
+      {
+        id: "5",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697143239/home_fix/suro0tjsvwdhe1w1ouvz.jpg",
+        alt: "Stay cool with professional AC service and installation. Keep your space comfortable year-round.",
+      },
+      {
+        id: "6",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697142905/home_fix/lnls7qv1yfchnirkxqxy.jpg",
+        alt: "Stay cool with professional AC service and installation. Keep your space comfortable year-round.",
+      },
+      {
+        id: "7",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697142905/home_fix/p4h0hpogrq30nee7pwr4.jpg",
+        alt: "Stay cool with professional AC service and installation. Keep your space comfortable year-round.",
+      },
+      {
+        id: "8",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697142905/home_fix/fwcnkfqikialv9m8xdwp.jpg",
+        alt: "Stay cool with professional AC service and installation. Keep your space comfortable year-round.",
       },
     ],
   },
@@ -147,7 +192,7 @@ export const heros = [
       },
       {
         id: "6",
-        src: "https://res.cloudinary.com/swiftpos/image/upload/v1696993556/home_fix/vkuwldesezosrldwrr7z.jpg",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1696993556/home_fix/xvnccwf9o2topvbsr7mn.jpg",
         alt: "kitchen cabinet design",
       },
       {
@@ -156,8 +201,8 @@ export const heros = [
         alt: "kitchen cabinet design",
       },
       {
-        id: "7",
-        src: "https://res.cloudinary.com/swiftpos/image/upload/v1696993555/home_fix/bj5vlsjl8lweeij77crn.jpg",
+        id: "8",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1696993556/home_fix/sqrhwogv1rfod1b1ke9g.jpg",
         alt: "kitchen cabinet design",
       },
     ],
@@ -168,19 +213,49 @@ export const heros = [
     alt: "A Man Holding a Plastic Crate with Fruits and Vegetables",
     heading: "Waterproofing",
     paragraph:
-      "Protecting Your Home from the Elements: Our Waterproofing Solutions Shield Your Precious Space, Ensuring Peace of Mind in Any Weather.",
+      "Waterproofing experts at your service. Protect your property from water damage. Your ultimate waterproofing solution.",
     cta: "Learn More",
     link: "waterproofing",
     gallary: [
       {
         id: "1",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991607/home_fix/ikzcon5khbv19mm8r2kr.jpg",
-        alt: "kitchen cabinet design",
+        alt: "waterproofing",
       },
       {
-        id: "1",
+        id: "2",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991607/home_fix/kcblm8erfpziscwmovw6.jpg",
-        alt: "kitchen cabinet design",
+        alt: "waterproofing",
+      },
+      {
+        id: "3",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991601/home_fix/fcksinkfjrrqlewm0oc0.jpg",
+        alt: "waterproofing",
+      },
+      {
+        id: "4",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991614/home_fix/qwobgqk98vfiiyoyvgne.jpg",
+        alt: "waterproofing",
+      },
+      {
+        id: "5",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991602/home_fix/qtryo3dqlmrfxw2iontd.jpg",
+        alt: "waterproofing",
+      },
+      {
+        id: "6",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697144831/home_fix/mny2lq81uehw8bilhwhx.jpg",
+        alt: "waterproofing",
+      },
+      {
+        id: "7",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991603/home_fix/po9qdoiu8t26qxnpqf7c.jpg",
+        alt: "waterproofing",
+      },
+      {
+        id: "8",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991600/home_fix/xmiztvlwxyvftpumx20e.jpg",
+        alt: "waterproofing",
       },
     ],
   },
@@ -190,28 +265,43 @@ export const heros = [
     alt: "A Man Holding a Plastic Crate with Fruits and Vegetables",
     heading: "Plumbing",
     paragraph:
-      "Protecting Your Home from the Elements: Our Waterproofing Solutions Shield Your Precious Space, Ensuring Peace of Mind in Any Weather.",
+      "Expert plumbing solutions for all your needs. We fix, install, and maintain. Your trusted plumbing partner.",
     cta: "Learn More",
-    link: "waterproofing",
+    link: "plumbing",
     gallary: [
       {
         id: "1",
-        src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991607/home_fix/ikzcon5khbv19mm8r2kr.jpg",
-        alt: "kitchen cabinet design",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697144545/home_fix/s6eqxh5agjplagitq8vf.jpg",
+        alt: "plumbing",
       },
       {
-        id: "1",
-        src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991607/home_fix/kcblm8erfpziscwmovw6.jpg",
-        alt: "kitchen cabinet design",
+        id: "2",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697144545/home_fix/dd2rgq2jfvvdpfrnkqiv.jpg",
+        alt: "plumbing",
+      },
+      {
+        id: "3",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697144830/home_fix/lp2p803bwf7bl2kmregs.jpg",
+        alt: "plumbing",
+      },
+      {
+        id: "4",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697145119/home_fix/s3pxzitsodvpu2yo2gpj.jpg",
+        alt: "plumbing",
       },
     ],
   },
 ];
 
 export const navlinks = [
-  { id: 1, cta: "Renovation", link: "/home-renovation" },
-  { id: 2, cta: "Electronics Service", link: "/electronics-service" },
-  { id: 3, cta: "Electronics Service", link: "/kitchen-cabinet-design" },
-  { id: 4, cta: "AC Service", link: "/ac-service" },
-  { id: 5, cta: "Waterproofing", link: "/waterproofing" },
+  { id: 1, cta: "Renovation", link: "/services/home-renovation" },
+  { id: 2, cta: "Electronics", link: "/services/electronics-service" },
+  {
+    id: 3,
+    cta: "Kitchen Cabinet",
+    link: "/services/kitchen-cabinet-design",
+  },
+  { id: 4, cta: "AC Service", link: "/services/ac-service" },
+  { id: 5, cta: "Waterproofing", link: "/services/waterproofing" },
+  { id: 6, cta: "Plumbing", link: "/services/plumbing" },
 ];

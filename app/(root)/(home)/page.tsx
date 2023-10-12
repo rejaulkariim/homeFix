@@ -7,7 +7,7 @@ export default function Home() {
     <main>
       <Hero />
       <Services />
-      <div className="container mx-auto">
+      <div className="wrapper">
         <CallToAction />
       </div>
     </main>

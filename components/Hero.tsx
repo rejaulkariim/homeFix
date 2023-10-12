@@ -77,10 +77,10 @@ const Hero = () => {
                       delay: 0.6,
                     }}
                   >
-                    <Button>
+                    <Button size="lg">
                       <Link
                         href={`services/${item.link}`}
-                        className="py-3 px-6 font-medium tracking-wider uppercase"
+                        className="font-medium tracking-wider uppercase"
                       >
                         {item.cta}
                       </Link>

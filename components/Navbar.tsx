@@ -27,7 +27,11 @@ const Navbar = () => {
       </div>
       <div className="hidden md:flex gap-4 items-center text-foreground">
         {navlinks.map((item) => (
-          <Link href={item.link} key={item.id} className="text-gradient ">
+          <Link
+            href={item.link}
+            key={item.id}
+            className="text-gradient uppercase"
+          >
             {item.cta}
           </Link>
         ))}

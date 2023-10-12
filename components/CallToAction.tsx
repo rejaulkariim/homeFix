@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const CallToAction = () => {
   return (
@@ -16,12 +17,12 @@ const CallToAction = () => {
         Ready to Discuss Your Project?
       </h2>
       <p className="text-lg mb-6">Our team is here to help. Call us now!</p>
-      <a
-        href="tel:+1234567890"
-        className="text-3xl font-extrabold hover:underline"
+      <Link
+        href="tel:+60179928203"
+        className="text-3xl font-extrabold hover:underline tracking-wider"
       >
-        +123 456 7890
-      </a>
+        +6017-9928-203
+      </Link>
     </motion.div>
   );
 };

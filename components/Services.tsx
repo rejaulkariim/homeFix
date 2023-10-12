@@ -30,19 +30,17 @@ const Services = () => {
             <Image
               src={item.src}
               alt={item.alt}
-              height={300}
+              height={500}
               width={500}
-              className="object-cover"
+              className="object-cover h-60 w-full"
             />
             <div className="p-4">
               <h3 className="text-xl text-foreground font-semibold mb-2">
                 {item.heading}
               </h3>
-              {/* <p className="text-foreground mb-4">
-                {item.subtitle.substring(0, 90)}...
-              </p> */}
-              <Button asChild>
-                <Link href={`services/${item.link}`} className="">
+              <p className="text-foreground mb-4">{item.paragraph}</p>
+              <Button asChild size="lg">
+                <Link href={`services/${item.link}`} className="uppercase">
                   {item.cta}
                 </Link>
               </Button>
