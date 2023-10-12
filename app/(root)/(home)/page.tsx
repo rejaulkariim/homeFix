@@ -1,3 +1,4 @@
+import CallToAction from "@/components/CallToAction";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 
@@ -6,6 +7,9 @@ export default function Home() {
     <main>
       <Hero />
       <Services />
+      <div className="container mx-auto">
+        <CallToAction />
+      </div>
     </main>
   );
 }

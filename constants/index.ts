@@ -1,7 +1,7 @@
 export const heros = [
   {
     id: "1",
-    src: "https://images.pexels.com/photos/4567374/pexels-photo-4567374.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    src: "https://res.cloudinary.com/swiftpos/image/upload/v1697140144/home_fix/reeglensx6w2lw2r1rke.jpg",
     alt: "Man Painting the Wall",
     heading: "Home Renovation",
     paragraph:
@@ -33,7 +33,7 @@ export const heros = [
   },
   {
     id: "2",
-    src: "https://images.pexels.com/photos/442151/pexels-photo-442151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    src: "https://res.cloudinary.com/swiftpos/image/upload/v1697139390/home_fix/h52uwwbpkrei2hfjawnp.jpg",
     alt: "Crop focused ethnic engineer using electric screwdriver",
     heading: "Electronics Service",
     paragraph:
@@ -43,7 +43,7 @@ export const heros = [
     gallary: [
       {
         id: "1",
-        src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991608/home_fix/xblpadqfra1irb3tltpj.jpg",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137400/home_fix/tnvoxa2h0cyppmgveqk0.jpg",
         alt: "kitchen cabinet design",
       },
       {
@@ -53,14 +53,39 @@ export const heros = [
       },
       {
         id: "3",
-        src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991605/home_fix/sn6kzlq2jxyceiiju8mw.jpg",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137400/home_fix/pspbq2rneez7eobqpobn.jpg",
+        alt: "kitchen cabinet design",
+      },
+      {
+        id: "4",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137400/home_fix/ktazr2fzkhrmkpiwpo10.jpg",
+        alt: "kitchen cabinet design",
+      },
+      {
+        id: "5",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137400/home_fix/mzdyewolkad3w0lbsm75.jpg",
+        alt: "kitchen cabinet design",
+      },
+      {
+        id: "6",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137399/home_fix/w3bn3rbzrfzvo4fg1kcm.jpg",
+        alt: "kitchen cabinet design",
+      },
+      {
+        id: "7",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137399/home_fix/adnqh6cshgxjwn6morxi.jpg",
+        alt: "kitchen cabinet design",
+      },
+      {
+        id: "8",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137758/home_fix/rtgdqnpp68vh3bf5jelk.jpg",
         alt: "kitchen cabinet design",
       },
     ],
   },
   {
     id: "3",
-    src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991617/home_fix/nowp8t6xcsfcf9vnlvmn.jpg",
+    src: "https://res.cloudinary.com/swiftpos/image/upload/v1697139673/home_fix/dg7bnmqfvw0bog40f3lv.jpg",
     alt: "Woman in Brown Tank Top and Brown Pants Holding a Globe",
     heading: "AC Service & Installation",
     paragraph:
@@ -87,7 +112,7 @@ export const heros = [
   },
   {
     id: "4",
-    src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991617/home_fix/nowp8t6xcsfcf9vnlvmn.jpg",
+    src: "https://res.cloudinary.com/swiftpos/image/upload/v1697139862/home_fix/bpvnrku0cujbr53uha9q.jpg",
     alt: "Rhinoceros standing in lush forested sanctuary",
     heading: "Kitchen Cabinet Design",
     paragraph:
@@ -132,14 +157,14 @@ export const heros = [
       },
       {
         id: "7",
-        src: "https://res.cloudinary.com/swiftpos/image/upload/v1696993555/home_fix/cdulj4inmppybkgov51e.jpg",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1696993555/home_fix/bj5vlsjl8lweeij77crn.jpg",
         alt: "kitchen cabinet design",
       },
     ],
   },
   {
     id: "5",
-    src: "https://images.pexels.com/photos/5767957/pexels-photo-5767957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    src: "https://res.cloudinary.com/swiftpos/image/upload/v1697140030/home_fix/ifr4g4oi5zxhxjhuv4wq.jpg",
     alt: "A Man Holding a Plastic Crate with Fruits and Vegetables",
     heading: "Waterproofing",
     paragraph:
@@ -159,58 +184,27 @@ export const heros = [
       },
     ],
   },
-];
-
-export const services = [
   {
-    id: 1,
-    src: "https://images.pexels.com/photos/4567374/pexels-photo-4567374.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    alt: "Man Painting the Wall",
-    heading: "Home Renovation",
-    description:
-      "Transforming Your House into Your Dream Home: Where Your Vision Meets Our Craftsmanship, Creating a Space You'll Love to Live In.",
-    cta: "Learn More",
-    link: "/home-renovation",
-  },
-  {
-    id: 2,
-    src: "https://images.pexels.com/photos/442151/pexels-photo-442151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    alt: "Crop focused ethnic engineer using an electric screwdriver",
-    heading: "Electronics Service & Maintenance",
-    description:
-      "Ensuring Longevity and Peak Performance for Your Electronics: Our Expert Technicians Provide Comprehensive Service and Maintenance to Keep Your Devices Running Smoothly.",
-    cta: "Learn More",
-    link: "/electronics-service",
-  },
-  {
-    id: 3,
-    src: "https://images.pexels.com/photos/4792517/pexels-photo-4792517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    alt: "Woman in Brown Tank Top and Brown Pants Holding a Globe",
-    heading: "Air Conditioning Service & Installation",
-    description:
-      "Beat the Heat and Enjoy Ultimate Comfort: Our Professional Air Conditioning Service and Installation Team Guarantees Cool Relief, Even in the Hottest Months.",
-    cta: "Learn More",
-    link: "/ac-service", // Dynamic link for Air Conditioning Service & Installation
-  },
-  {
-    id: 4,
-    src: "https://images.pexels.com/photos/5691502/pexels-photo-5691502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    alt: "Rhinoceros standing in a lush forested sanctuary",
-    heading: "Kitchen Cabinet Design",
-    description:
-      "Crafting Your Ideal Kitchen Space: Let Us Transform Your Culinary Haven with Custom-Designed Cabinets Tailored to Your Taste and Lifestyle.",
-    cta: "Learn More",
-    link: "/kitchen-cabinet-design",
-  },
-  {
-    id: 5,
-    src: "https://images.pexels.com/photos/5767957/pexels-photo-5767957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    id: "6",
+    src: "https://res.cloudinary.com/swiftpos/image/upload/v1697140378/home_fix/xmvumn9akyxivz9xzapj.jpg",
     alt: "A Man Holding a Plastic Crate with Fruits and Vegetables",
-    heading: "Waterproofing",
-    description:
+    heading: "Plumbing",
+    paragraph:
       "Protecting Your Home from the Elements: Our Waterproofing Solutions Shield Your Precious Space, Ensuring Peace of Mind in Any Weather.",
     cta: "Learn More",
-    link: "/waterproofing",
+    link: "waterproofing",
+    gallary: [
+      {
+        id: "1",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991607/home_fix/ikzcon5khbv19mm8r2kr.jpg",
+        alt: "kitchen cabinet design",
+      },
+      {
+        id: "1",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991607/home_fix/kcblm8erfpziscwmovw6.jpg",
+        alt: "kitchen cabinet design",
+      },
+    ],
   },
 ];
 

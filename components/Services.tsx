@@ -1,6 +1,6 @@
 "use client";
 
-import { services } from "@/constants";
+import { heros } from "@/constants";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -15,7 +15,7 @@ const Services = () => {
       />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {services.map((item, index) => (
+        {heros.map((item, index) => (
           <motion.div
             key={item.id}
             initial={{ y: "-100%" }}
@@ -38,9 +38,9 @@ const Services = () => {
               <h3 className="text-xl text-foreground font-semibold mb-2">
                 {item.heading}
               </h3>
-              <p className="text-foreground mb-4">
-                {item.description.substring(0, 90)}...
-              </p>
+              {/* <p className="text-foreground mb-4">
+                {item.subtitle.substring(0, 90)}...
+              </p> */}
               <Button asChild>
                 <Link href={`services/${item.link}`} className="">
                   {item.cta}

@@ -9,11 +9,9 @@ import { motion } from "framer-motion";
 const ServiceDetailsPage = ({ params }: { params: { id: string } }) => {
   const service = heros.find((item: serviceType) => item.link === params.id);
 
-  console.log(service?.gallary);
-
   return (
     service && (
-      <main className="mt-16">
+      <main>
         {/* BG */}
         <div
           className="h-[60vh] bg-no-repeat bg-center bg-cover bg-fixed flex justify-center items-center"

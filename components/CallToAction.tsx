@@ -10,14 +10,14 @@ const CallToAction = () => {
         ease: "easeInOut",
         duration: 1.35,
       }}
-      className="bg-gradient-to-r from-secondary to-primary text-white py-16 text-center rounded-xl"
+      className="bg-gradient-to-r from-secondary to-primary text-white py-16 px-8 text-center rounded-xl"
     >
-      <h2 className="text-4xl font-extrabold mb-4">
+      <h2 className="text-3xl md:text-4xl font-extrabold mb-4">
         Ready to Discuss Your Project?
       </h2>
       <p className="text-lg mb-6">Our team is here to help. Call us now!</p>
       <a
-        href="tel:+1234567890" // Replace with your phone number
+        href="tel:+1234567890"
         className="text-3xl font-extrabold hover:underline"
       >
         +123 456 7890
