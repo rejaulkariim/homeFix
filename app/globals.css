@@ -133,7 +133,7 @@
 }
 
 .wrapper {
-  @apply py-10 px-4 md:px-10;
+  @apply container mx-auto py-10 px-4 md:px-10;
 }
 
 .text-gradient:hover {
