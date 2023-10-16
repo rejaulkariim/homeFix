@@ -22,7 +22,7 @@ const Testimonails = () => {
               duration: 1.35,
               delay: index / 3,
             }}
-            className="shadow-md p-4 rounded-lg border-2 border-muted"
+            className="shadow-md p-4 rounded-lg border-2 border-muted bg-card"
           >
             <p className="text-foreground">{testimonial.review}</p>
             <p className="mt-4 text-foreground">{testimonial.name}</p>

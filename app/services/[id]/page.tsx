@@ -5,11 +5,9 @@ import Hearder from "@/components/Hearder";
 import { heros } from "@/constants";
 import { serviceType } from "@/types/services";
 import { motion } from "framer-motion";
-import { useState } from "react";
 
 const ServiceDetailsPage = ({ params }: { params: { id: string } }) => {
-  const data = heros.find((item: serviceType) => item.link === params.id);
-  const [service, setService] = useState(data);
+  const service = heros.find((item: serviceType) => item.link === params.id);
 
   return (
     service && (

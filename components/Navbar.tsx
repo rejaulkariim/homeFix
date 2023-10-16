@@ -1,6 +1,7 @@
 "use client";
 import {
   Sheet,
+  SheetClose,
   SheetContent,
   SheetHeader,
   SheetTrigger,
@@ -13,7 +14,7 @@ import ModeToggle from "./ModeToggle";
 
 const Navbar = () => {
   return (
-    <header className="wrapper text-white flex justify-between items-center sticky top-0 z-[10] backdrop-blur h-16">
+    <header className="px-4 md:px-40 text-white flex justify-between items-center sticky top-0 z-[10] backdrop-blur h-16">
       <div>
         <Link
           href="/"
@@ -48,13 +49,14 @@ const Navbar = () => {
               <SheetHeader>
                 <div className="flex flex-col items-start gap-4 text-foreground">
                   {navlinks.map((item) => (
-                    <Link
-                      href={item.link}
-                      key={item.id}
-                      className="py-2 w-5/6 mx-auto bg-gradient-to-r from-secondary to-primary text-white rounded-lg"
-                    >
-                      {item.cta}
-                    </Link>
+                    <SheetClose asChild key={item.id}>
+                      <Link
+                        href={item.link}
+                        className="py-2 w-5/6 mx-auto bg-gradient-to-r from-secondary to-primary text-white rounded-lg"
+                      >
+                        {item.cta}
+                      </Link>
+                    </SheetClose>
                   ))}
                 </div>
               </SheetHeader>
