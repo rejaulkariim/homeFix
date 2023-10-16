@@ -12,7 +12,8 @@ const baiJamjuree = Bai_Jamjuree({
 });
 
 export const metadata: Metadata = {
-  title: "Expert Home Improvement Solutions Await!",
+  title:
+    "Expert Home Improvement Solutions Await! Kuala Lumpur, Ampang, Subang Jaya, Taipan, Damansara, Malaysia",
   description:
     "Transform your property with our expert services! From custom-designed kitchen cabinets to air conditioning service and installation, waterproofing, and home renovation, we've got your needs covered. Trust us to bring your vision to life and enhance the comfort, style, and functionality of your home or business in Malaysia.",
   other: {
