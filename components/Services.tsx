@@ -25,7 +25,7 @@ const Services = () => {
               duration: 1.35,
               delay: index / 5,
             }}
-            className="border-2 shadow-sm hover:border-primary rounded-xl overflow-hidden"
+            className="border-2 shadow-sm hover:border-primary rounded-xl overflow-hidden bg-card"
           >
             <Image
               src={item.src}
@@ -35,7 +35,7 @@ const Services = () => {
               className="object-cover h-60 w-full"
             />
             <div className="p-4">
-              <h3 className="text-xl text-foreground font-semibold mb-2">
+              <h3 className="text-xl text-foreground font-bold mb-2 uppercase tracking-wider">
                 {item.heading}
               </h3>
               <p className="text-foreground mb-4">{item.paragraph}</p>

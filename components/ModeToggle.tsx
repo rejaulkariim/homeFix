@@ -1,6 +1,7 @@
 "use client";
 import { useTheme } from "next-themes";
-import { BiSolidMoon, BiSun } from "react-icons/bi";
+import { BiSun } from "react-icons/bi";
+import { BsFillMoonFill } from "react-icons/bs";
 import { Button } from "./ui/Button";
 
 const ModeToggle = () => {
@@ -18,22 +19,16 @@ const ModeToggle = () => {
       <Button
         variant="ghost"
         size="sm"
-        className="h-10 w-10 px-0 border-none rounded-lg"
+        className="h-10 w-10 px-0 border-none"
         onClick={handleThemeChange}
       >
         {theme === "light" ? (
           <>
-            <BiSun
-              size={25}
-              className="text-primary rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0"
-            />
+            <BsFillMoonFill size={25} className="text-primary " />
           </>
         ) : (
           <>
-            <BiSolidMoon
-              size={25}
-              className="text-primary rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100"
-            />
+            <BiSun size={25} className="text-primary" />
           </>
         )}
       </Button>
