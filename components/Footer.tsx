@@ -7,6 +7,7 @@ const Footer = () => {
     <footer className="wrapper flex justify-between items-center py-10 px-4 md:px-10 border-t">
       <p className="text-foreground">
         &copy; {new Date().getFullYear()}, Homefix all rights reserved
+        <p>27, Jalan USJ 2/2G Subang Jaya</p>
       </p>
 
       <Link href="https://www.facebook.com/fixmyhome.my" target="_blank">

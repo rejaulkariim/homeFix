@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Notice from "@/components/Notice";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import type { Metadata } from "next";
 import { Bai_Jamjuree } from "next/font/google";
 import "./globals.css";
@@ -37,6 +38,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Notice />
           <Navbar />
+          <WhatsAppButton />
           {children}
           <Footer />
         </ThemeProvider>

@@ -18,12 +18,20 @@ const CallToAction = () => {
           Ready to Discuss Your Project?
         </h2>
         <p className="text-lg mb-6">Our team is here to help. Call us now!</p>
-        <Link
-          href="tel:+60179928203"
-          className="text-3xl font-extrabold hover:underline tracking-wider"
-        >
-          +6017-9928-203
-        </Link>
+        <div className="flex flex-col">
+          <Link
+            href="tel:+60179928203"
+            className="text-3xl font-extrabold hover:underline tracking-wider"
+          >
+            +6017-9928-203
+          </Link>
+          <Link
+            href="tel:+60109750594"
+            className="text-3xl font-extrabold hover:underline tracking-wider"
+          >
+            +60109-750-594
+          </Link>
+        </div>
       </motion.div>
     </div>
   );
