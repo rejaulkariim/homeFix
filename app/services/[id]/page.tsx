@@ -24,7 +24,7 @@ const ServiceDetailsPage = ({ params }: { params: { id: string } }) => {
               initial={{ y: "100%" }}
               whileInView={{ y: 0 }}
               transition={{ ease: "easeInOut", duration: 1 }}
-              className="text-4xl md:text-8xl font-bold uppercase text-white wrapper text-center"
+              className="text-4xl md:text-7xl font-bold uppercase text-white wrapper text-center"
             >
               {service.heading}
             </motion.h2>

@@ -71,7 +71,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground antialiased;
   }
 }
 
@@ -115,10 +115,6 @@
   background-color: #fb6d10;
 }
 
-.wrapper {
-  @apply md:p-4 p-2;
-}
-
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -136,6 +132,6 @@
   @apply container mx-auto py-10 px-4 md:px-10;
 }
 
-.text-gradient:hover {
+.text-gradient {
   @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
 }

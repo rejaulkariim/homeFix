@@ -9,10 +9,13 @@ import {
 
 import { navlinks } from "@/constants";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { BsFacebook } from "react-icons/bs";
 import { HiMenuAlt1 } from "react-icons/hi";
 import ModeToggle from "./ModeToggle";
 
 const Navbar = () => {
+  const pathname = usePathname();
   return (
     <header className="px-4 md:px-40 text-white flex justify-between items-center sticky top-0 z-[10] backdrop-blur h-16">
       <div>
@@ -27,19 +30,35 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="hidden md:flex gap-4 items-center text-foreground">
-        {navlinks.map((item) => (
-          <Link
-            href={item.link}
-            key={item.id}
-            className="text-gradient uppercase"
-          >
-            {item.cta}
-          </Link>
-        ))}
+        {navlinks.map((item) => {
+          const isActive =
+            (pathname.includes(item.link) && item.link.length > 1) ||
+            pathname === item.link;
+          return (
+            <Link
+              href={item.link}
+              key={item.id}
+              className={`${
+                isActive ? "text-gradient" : "text-foreground"
+              } uppercase `}
+            >
+              <span>{item.cta}</span>
+            </Link>
+          );
+        })}
       </div>
 
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-4">
+        <Link
+          href="https://www.facebook.com/fixmyhome.my"
+          target="_blank"
+          className="text-blue-500"
+        >
+          <BsFacebook size={30} />
+        </Link>
         <ModeToggle />
+
+        {/* Mobile Nav */}
         <div className="md:hidden">
           <Sheet>
             <SheetTrigger asChild>

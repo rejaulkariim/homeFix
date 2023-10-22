@@ -27,12 +27,12 @@ export const heros = [
       {
         id: 4,
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1697145121/home_fix/vuamw51ar4tlqzchefel.jpg",
-        alt: "Man in blue clothing giving an old man water",
+        alt: "Home Renovation",
       },
       {
         id: 5,
-        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697145121/home_fix/np5z7rfhso0suqtaigqx.jpg",
-        alt: "Man in blue clothing giving an old man water",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1698006718/home_fix/jq6kof0uqs7hpywaiuyg.jpg",
+        alt: "Home Renovation",
       },
       {
         id: 6,
@@ -47,7 +47,7 @@ export const heros = [
       {
         id: 8,
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1697145119/home_fix/v5plktgho9rhhs451o7m.jpg",
-        alt: "Home Repair",
+        alt: "Home Renovation",
       },
     ],
   },
@@ -64,12 +64,12 @@ export const heros = [
       {
         id: "1",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137400/home_fix/tnvoxa2h0cyppmgveqk0.jpg",
-        alt: "Repair DB Box",
+        alt: "Repaire DB Box",
       },
       {
         id: "2",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991604/home_fix/jcmdzxeotp9mn2scvqvo.jpg",
-        alt: "Repair DB Box",
+        alt: "Repaire DB Box",
       },
       {
         id: "3",
@@ -84,7 +84,7 @@ export const heros = [
       {
         id: "5",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137400/home_fix/mzdyewolkad3w0lbsm75.jpg",
-        alt: "Repair DB Box",
+        alt: "Repaire DB Box",
       },
       {
         id: "6",
@@ -193,17 +193,17 @@ export const heros = [
       {
         id: "6",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1696993556/home_fix/xvnccwf9o2topvbsr7mn.jpg",
-        alt: "kitchen cabinet design",
+        alt: "Bedroom Almirah Design",
       },
       {
         id: "7",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1696993555/home_fix/bj5vlsjl8lweeij77crn.jpg",
-        alt: "kitchen cabinet design",
+        alt: "Bedroom Almirah Design",
       },
       {
         id: "8",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1696993556/home_fix/sqrhwogv1rfod1b1ke9g.jpg",
-        alt: "kitchen cabinet design",
+        alt: "Bedroom Almirah Design",
       },
     ],
   },
@@ -289,6 +289,26 @@ export const heros = [
       {
         id: "4",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1697145119/home_fix/s3pxzitsodvpu2yo2gpj.jpg",
+        alt: "Repair",
+      },
+      {
+        id: "5",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697145119/home_fix/uchpty1ujprqckvfcjdd.jpg",
+        alt: "Repair",
+      },
+      {
+        id: "6",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697145119/home_fix/s3pxzitsodvpu2yo2gpj.jpg",
+        alt: "Repair",
+      },
+      {
+        id: "7",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697144378/home_fix/nos48hmutvfrd34njzb2.jpg",
+        alt: "Repair",
+      },
+      {
+        id: "8",
+        src: "https://res.cloudinary.com/swiftpos/image/upload/v1697144378/home_fix/gv08zrsrsilvdfhxaaz0.jpg",
         alt: "Repair",
       },
     ],
