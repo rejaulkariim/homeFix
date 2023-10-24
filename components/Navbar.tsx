@@ -40,7 +40,7 @@ const Navbar = () => {
               key={item.id}
               className={`${
                 isActive ? "text-gradient" : "text-foreground"
-              } uppercase `}
+              } uppercase font-medium `}
             >
               <span>{item.cta}</span>
             </Link>
@@ -67,16 +67,25 @@ const Navbar = () => {
             <SheetContent side="left">
               <SheetHeader>
                 <div className="flex flex-col items-start gap-4 text-foreground">
-                  {navlinks.map((item) => (
-                    <SheetClose asChild key={item.id}>
-                      <Link
-                        href={item.link}
-                        className="py-2 w-5/6 mx-auto bg-gradient-to-r from-secondary to-primary text-white rounded-lg"
-                      >
-                        {item.cta}
-                      </Link>
-                    </SheetClose>
-                  ))}
+                  {navlinks.map((item) => {
+                    const isActive =
+                      (pathname.includes(item.link) && item.link.length > 1) ||
+                      pathname === item.link;
+                    return (
+                      <SheetClose asChild key={item.id}>
+                        <Link
+                          href={item.link}
+                          className={`${
+                            isActive
+                              ? "bg-gradient-to-r from-secondary to-primary text-white"
+                              : "text-foreground bg-gray-200"
+                          } uppercase font-medium py-2 w-5/6 mx-auto rounded-lg `}
+                        >
+                          {item.cta}
+                        </Link>
+                      </SheetClose>
+                    );
+                  })}
                 </div>
               </SheetHeader>
             </SheetContent>

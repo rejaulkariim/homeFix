@@ -64,12 +64,12 @@ export const heros = [
       {
         id: "1",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137400/home_fix/tnvoxa2h0cyppmgveqk0.jpg",
-        alt: "Repaire DB Box",
+        alt: "Repair DB Box",
       },
       {
         id: "2",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991604/home_fix/jcmdzxeotp9mn2scvqvo.jpg",
-        alt: "Repaire DB Box",
+        alt: "Repair DB Box",
       },
       {
         id: "3",
@@ -84,7 +84,7 @@ export const heros = [
       {
         id: "5",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137400/home_fix/mzdyewolkad3w0lbsm75.jpg",
-        alt: "Repaire DB Box",
+        alt: "Repair DB Box",
       },
       {
         id: "6",
@@ -252,12 +252,12 @@ export const heros = [
       {
         id: "7",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991607/home_fix/ikzcon5khbv19mm8r2kr.jpg",
-        alt: "Roof Repire ",
+        alt: "Roof Repair ",
       },
       {
         id: "8",
         src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991607/home_fix/kcblm8erfpziscwmovw6.jpg",
-        alt: "Roof Repire ",
+        alt: "Roof Repair ",
       },
     ],
   },
