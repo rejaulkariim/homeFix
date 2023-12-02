@@ -3,18 +3,19 @@ import Navbar from "@/components/Navbar";
 import Notice from "@/components/Notice";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
-import { Bai_Jamjuree } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-const baiJamjuree = Bai_Jamjuree({
+const inter = Inter({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
   title:
-    "Expert Home Improvement Solutions Await! Kuala Lumpur, Ampang, Subang Jaya, Taipan, Damansara, Malaysia",
+    "Expert Home Improvement Solutions! Kuala Lumpur, Ampang, Subang Jaya, Taipan, Damansara, Malaysia",
   description:
     "Transform your property with our expert services! From custom-designed kitchen cabinets to air conditioning service and installation, waterproofing, and home renovation, we've got your needs covered. Trust us to bring your vision to life and enhance the comfort, style, and functionality of your home or business in Malaysia.",
   other: {
@@ -34,7 +35,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={baiJamjuree.className}>
+      <body className={cn("font-sans antialiased", inter.className)}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Notice />
           <Navbar />

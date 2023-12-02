@@ -10,23 +10,19 @@ import {
 import { navlinks } from "@/constants";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BsFacebook } from "react-icons/bs";
-import { HiMenuAlt1 } from "react-icons/hi";
+import { RiMenu4Fill } from "react-icons/ri";
 import ModeToggle from "./ModeToggle";
 
 const Navbar = () => {
   const pathname = usePathname();
   return (
-    <header className="px-4 md:px-40 text-white flex justify-between items-center sticky top-0 z-[10] backdrop-blur h-16">
+    <header className="px-4 md:px-40 text-white flex justify-between items-center sticky top-0 z-50 bg-background h-16">
       <div>
         <Link
           href="/"
           className="text-2xl font-bold uppercase text-foreground "
         >
-          Home{" "}
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
-            Fix
-          </span>
+          Home <span className="text-primary">Fix</span>
         </Link>
       </div>
       <div className="hidden md:flex gap-4 items-center text-foreground">
@@ -39,7 +35,7 @@ const Navbar = () => {
               href={item.link}
               key={item.id}
               className={`${
-                isActive ? "text-gradient" : "text-foreground"
+                isActive ? "text-primary" : "text-foreground"
               } uppercase font-medium `}
             >
               <span>{item.cta}</span>
@@ -49,20 +45,13 @@ const Navbar = () => {
       </div>
 
       <div className="flex items-center gap-4">
-        <Link
-          href="https://www.facebook.com/fixmyhome.my"
-          target="_blank"
-          className="text-blue-500"
-        >
-          <BsFacebook size={30} />
-        </Link>
         <ModeToggle />
 
         {/* Mobile Nav */}
         <div className="md:hidden">
           <Sheet>
             <SheetTrigger asChild>
-              <HiMenuAlt1 size={30} className="text-primary" />
+              <RiMenu4Fill size={30} className="text-primary" />
             </SheetTrigger>
             <SheetContent side="left">
               <SheetHeader>
@@ -78,7 +67,7 @@ const Navbar = () => {
                           className={`${
                             isActive
                               ? "bg-gradient-to-r from-secondary to-primary text-white"
-                              : "text-foreground bg-gray-200"
+                              : "bg-secondary text-white"
                           } uppercase font-medium py-2 w-5/6 mx-auto rounded-lg `}
                         >
                           {item.cta}

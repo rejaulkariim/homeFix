@@ -11,7 +11,7 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import Overlay from "./Overlay";
-import { Button } from "./ui/Button";
+import { buttonVariants } from "./ui/Button";
 
 const Hero = () => {
   return (
@@ -77,14 +77,16 @@ const Hero = () => {
                       delay: 0.6,
                     }}
                   >
-                    <Button size="lg">
-                      <Link
-                        href={`services/${item.link}`}
-                        className="font-medium tracking-wider uppercase"
-                      >
-                        {item.cta}
-                      </Link>
-                    </Button>
+                    <Link
+                      href={`services/${item.link}`}
+                      className={buttonVariants({
+                        variant: "default",
+                        size: "lg",
+                        className: "text-white",
+                      })}
+                    >
+                      {item.cta}
+                    </Link>
                   </motion.div>
                 </div>
               </div>

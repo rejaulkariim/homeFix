@@ -1,7 +1,7 @@
 "use client";
 import { useTheme } from "next-themes";
 import { BiSun } from "react-icons/bi";
-import { BsFillMoonFill } from "react-icons/bs";
+import { GoMoon } from "react-icons/go";
 import { Button } from "./ui/Button";
 
 const ModeToggle = () => {
@@ -24,7 +24,7 @@ const ModeToggle = () => {
       >
         {theme === "light" ? (
           <>
-            <BsFillMoonFill size={25} className="text-primary " />
+            <GoMoon size={25} className="text-primary " />
           </>
         ) : (
           <>

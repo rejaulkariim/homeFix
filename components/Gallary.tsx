@@ -24,7 +24,7 @@ const Gallary: React.FC<GalleryProps> = ({ src, alt, index }) => {
           priority
           className="w-full h-full object-cover group-hover:scale-125 duration-1000"
         />
-        <p className="text-base text-primary uppercase absolute bottom-4 left-4 bg-black bg-opacity-75 p-2 rounded-md">
+        <p className="text-base text-white uppercase absolute bottom-4 left-4 bg-black bg-opacity-75 p-2 rounded-md">
           {alt}
         </p>
       </motion.div>

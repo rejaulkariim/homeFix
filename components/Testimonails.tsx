@@ -33,7 +33,9 @@ const Testimonails = () => {
               <AiFillStar />
               <AiFillStar />
             </div>
-            <p className="mt-2 text-foreground">{testimonial.name}</p>
+            <p className="text-sm mt-2 text-muted-foreground">
+              {testimonial.name}
+            </p>
           </motion.div>
         ))}
       </div>
