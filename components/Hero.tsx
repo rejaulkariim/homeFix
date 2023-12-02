@@ -9,9 +9,9 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
+import { buttonVariants } from "@/components/ui/Button";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Overlay from "./Overlay";
-import { buttonVariants } from "./ui/Button";
 
 const Hero = () => {
   return (
