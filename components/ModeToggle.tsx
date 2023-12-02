@@ -1,9 +1,9 @@
 "use client";
 
+import { Button } from "@/components/ui/Button";
 import { useTheme } from "next-themes";
 import { BiSun } from "react-icons/bi";
 import { GoMoon } from "react-icons/go";
-import { Button } from "./ui/Button";
 
 const ModeToggle = () => {
   const { theme, setTheme } = useTheme();
