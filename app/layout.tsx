@@ -1,6 +1,3 @@
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
-import Notice from "@/components/Notice";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { cn } from "@/lib/utils";
@@ -37,11 +34,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={cn("font-sans antialiased", inter.className)}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <Notice />
-          <Navbar />
           <WhatsAppButton />
           {children}
-          <Footer />
         </ThemeProvider>
       </body>
     </html>

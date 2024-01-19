@@ -1,4 +1,3 @@
-import CallToAction from "@/components/CallToAction";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import Testimonails from "@/components/Testimonails";
@@ -9,7 +8,7 @@ export default function Home() {
       <Hero />
       <Services />
       <Testimonails />
-      <CallToAction />
+      {/* <CallToAction /> */}
     </main>
   );
 }

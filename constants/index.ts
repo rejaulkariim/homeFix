@@ -366,3 +366,34 @@ export const navlinks = [
   { id: 5, cta: "Waterproofing", link: "/services/waterproofing" },
   { id: 6, cta: "Plumbing", link: "/services/plumbing" },
 ];
+export const serviceLink = [
+  { id: 1, cta: "Renovation", link: "/services/home-renovation" },
+  { id: 2, cta: "Electronics", link: "/services/electronics-service" },
+  {
+    id: 3,
+    cta: "Kitchen Cabinet",
+    link: "/services/kitchen-cabinet-design",
+  },
+  { id: 4, cta: "Aircond Service", link: "/services/ac-service" },
+  { id: 5, cta: "Waterproofing", link: "/services/waterproofing" },
+  { id: 6, cta: "Plumbing", link: "/services/plumbing" },
+];
+
+export const headerLinks = [
+  {
+    label: "Home",
+    route: "/",
+  },
+  {
+    label: "About",
+    route: "/#pricing",
+  },
+  {
+    label: "Contact",
+    route: "/testimonails",
+  },
+  {
+    label: "Works",
+    route: "/portfolio",
+  },
+];

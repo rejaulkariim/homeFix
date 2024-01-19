@@ -111,6 +111,17 @@
   background-color: transparent;
 }
 
-.wrapper {
-  @apply max-w-screen-xl mx-auto py-10 px-4 md:px-10;
+.section-padding {
+  @apply py-10 px-4 md:px-20;
+}
+
+.p-regular {
+  @apply text-sm md:text-base dark:text-gray-400 text-gray-900 leading-10;
+}
+
+@media print {
+  @page {
+    size: auto;
+    margin: 0.8cm;
+  }
 }
