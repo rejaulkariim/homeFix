@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/ui/button";
 import { useTheme } from "next-themes";
 import { BiSun } from "react-icons/bi";
 import { GoMoon } from "react-icons/go";
