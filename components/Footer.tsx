@@ -1,16 +1,41 @@
-"use client";
+import Link from "next/link";
+import MaxWidthWrapper from "./shared/MaxWidthWrapper";
 
 const Footer = () => {
   return (
-    <footer className="wrapper flex justify-center py-10 px-4 md:px-10 border-t">
-      <div className="text-center">
-        <p className="text-base md:text-lg uppercase">
-          Address: 27, Jalan USJ 2/2G Subang Jaya
-        </p>
-        <p className="text-foreground">
-          &copy; {new Date().getFullYear()}, Homefix all rights reserved
-        </p>
-      </div>
+    <footer className="h-16">
+      <MaxWidthWrapper>
+        <div className="h-full flex flex-col md:flex-row md:justify-between justify-center items-center">
+          <div className="text-center md:text-left pb-2 md:pb-0">
+            <p className="text-sm text-muted-foreground">
+              &copy; {new Date().getFullYear()} All rights reserved
+            </p>
+          </div>
+
+          <div className="flex items-center justify-center">
+            <div className="flex space-x-8">
+              <Link
+                href="#"
+                className="text-sm text-muted-foreground hover:text-gray-600"
+              >
+                Terms
+              </Link>
+              <Link
+                href="#"
+                className="text-sm text-muted-foreground hover:text-gray-600"
+              >
+                Privacy Policy
+              </Link>
+              <Link
+                href="#"
+                className="text-sm text-muted-foreground hover:text-gray-600"
+              >
+                Cookie Policy
+              </Link>
+            </div>
+          </div>
+        </div>
+      </MaxWidthWrapper>
     </footer>
   );
 };

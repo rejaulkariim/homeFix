@@ -1,13 +1,13 @@
 import Hero from "@/components/Hero";
-import Services from "@/components/Services";
-import Testimonails from "@/components/Testimonails";
+import Reviews from "@/components/Reviews";
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <Services />
-      <Testimonails />
+      <Reviews />
+      {/* <Services />
+      <Testimonails /> */}
       {/* <CallToAction /> */}
     </main>
   );

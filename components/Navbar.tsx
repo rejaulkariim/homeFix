@@ -1,87 +1,42 @@
 "use client";
-import {
-  Sheet,
-  SheetClose,
-  SheetContent,
-  SheetHeader,
-  SheetTrigger,
-} from "@/components/ui/Sheet";
 
-import { navlinks } from "@/constants";
+import { Menu } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { RiMenu4Fill } from "react-icons/ri";
-import ModeToggle from "./ModeToggle";
+import MaxWidthWrapper from "./shared/MaxWidthWrapper";
+import { buttonVariants } from "./ui/button";
 
 const Navbar = () => {
   const pathname = usePathname();
   return (
-    <header className="px-4 md:px-40 text-white flex justify-between items-center sticky top-0 z-50 bg-background h-16">
-      <div>
-        <Link
-          href="/"
-          className="text-2xl font-bold uppercase text-foreground "
-        >
-          Home <span className="text-primary">Fix</span>
-        </Link>
-      </div>
-      <div className="hidden md:flex gap-4 items-center text-foreground">
-        {navlinks.map((item) => {
-          const isActive =
-            (pathname.includes(item.link) && item.link.length > 1) ||
-            pathname === item.link;
-          return (
+    <nav className="sticky z-[100] h-14 inset-x-0 top-0 w-full border-b border-border/50 backdrop-blur-lg transition-all">
+      <MaxWidthWrapper>
+        <div className="flex h-14 items-center justify-between">
+          <Link href="/" className="flex z-40 font-semibold">
+            <p className="text-xl font-bold">
+              Home <span className="text-primary">Fix</span>
+            </p>
+          </Link>
+
+          <div className="h-full flex items-center space-x-4">
             <Link
-              href={item.link}
-              key={item.id}
-              className={`${
-                isActive ? "text-primary" : "text-foreground"
-              } uppercase font-medium `}
+              href="https://www.facebook.com/fixmyhome.my"
+              target="_blank"
+              className={buttonVariants({
+                size: "sm",
+                className: "hidden sm:flex items-center gap-1",
+              })}
             >
-              <span>{item.cta}</span>
+              Follow
             </Link>
-          );
-        })}
-      </div>
 
-      <div className="flex items-center gap-4">
-        <ModeToggle />
-
-        {/* Mobile Nav */}
-        <div className="md:hidden">
-          <Sheet>
-            <SheetTrigger asChild>
-              <RiMenu4Fill size={30} className="text-primary" />
-            </SheetTrigger>
-            <SheetContent side="left">
-              <SheetHeader>
-                <div className="flex flex-col items-start gap-4 text-foreground">
-                  {navlinks.map((item) => {
-                    const isActive =
-                      (pathname.includes(item.link) && item.link.length > 1) ||
-                      pathname === item.link;
-                    return (
-                      <SheetClose asChild key={item.id}>
-                        <Link
-                          href={item.link}
-                          className={`${
-                            isActive
-                              ? "bg-gradient-to-r from-secondary to-primary text-white"
-                              : "bg-secondary text-white"
-                          } uppercase font-medium py-2 w-5/6 mx-auto rounded-lg `}
-                        >
-                          {item.cta}
-                        </Link>
-                      </SheetClose>
-                    );
-                  })}
-                </div>
-              </SheetHeader>
-            </SheetContent>
-          </Sheet>
+            <div className="sm:hidden">
+              <Menu />
+            </div>
+          </div>
         </div>
-      </div>
-    </header>
+      </MaxWidthWrapper>
+    </nav>
   );
 };
 

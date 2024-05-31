@@ -1,27 +1,56 @@
 import { ThemeProvider } from "@/components/ThemeProvider";
-import WhatsAppButton from "@/components/WhatsAppButton";
+import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Recursive } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
+const recursive = Recursive({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title:
-    "Expert Home Improvement Solutions! Kuala Lumpur, Ampang, Subang Jaya, Taipan, Damansara, Malaysia",
-  description:
-    "Transform your property with our expert services! From custom-designed kitchen cabinets to air conditioning service and installation, waterproofing, and home renovation, we've got your needs covered. Trust us to bring your vision to life and enhance the comfort, style, and functionality of your home or business in Malaysia.",
-  other: {
-    "twitter:image":
-      "https://res.cloudinary.com/swiftpos/image/upload/v1697152287/home_fix/c6qh8czoft6hovxa8mhb.png",
-    "og:url": "homefix.com.my",
-    "og:image":
-      "https://res.cloudinary.com/swiftpos/image/upload/v1697152287/home_fix/c6qh8czoft6hovxa8mhb.png",
-    "og:type": "website",
+export const metadata = {
+  title: {
+    default: siteConfig.title,
+    template: `%s | ${siteConfig.name}`,
+  },
+  description: siteConfig.description,
+
+  keywords: [
+    "Aircon Supply and Installation",
+    "Aircon Chemical Wash",
+    "Aircon Repair",
+    "Aircon General Cleaning",
+    "Aircon Overhaul Cleaning",
+  ],
+  authors: [
+    {
+      name: "Rejaul Karim",
+      url: "https://github.com/rejaulkariim",
+    },
+  ],
+  creator: "Rejaul Karim",
+
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: siteConfig.url,
+    title: siteConfig.title,
+    description: siteConfig.description,
+    siteName: siteConfig.name,
+    images: [
+      {
+        url: siteConfig.ogImage,
+        width: 1200,
+        height: 630,
+        alt: siteConfig.name,
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: siteConfig.name,
+    description: siteConfig.description,
+    images: [siteConfig.ogImage],
+    creator: "@rejaulkariim",
   },
 };
 
@@ -32,9 +61,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={cn("font-sans antialiased", inter.className)}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <WhatsAppButton />
+      <body className={cn("font-sans antialiased", recursive.className)}>
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           {children}
         </ThemeProvider>
       </body>

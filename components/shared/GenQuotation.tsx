@@ -1,7 +1,7 @@
 "use client";
 
-import { useRef, useState } from "react";
-import ReactToPrint from "react-to-print";
+import { useState } from "react";
+import { Margin, usePDF } from "react-to-pdf";
 import { Button } from "../ui/button";
 import ServiceItem from "./ServiceItem";
 
@@ -34,6 +34,8 @@ const GenQuotation: React.FC = () => {
       totalPrice: "",
     },
   ]);
+
+  console.log("service state =>", services);
 
   const [totalPrice, setTotalPrice] = useState(0);
 
@@ -79,19 +81,6 @@ const GenQuotation: React.FC = () => {
     updateTotalPrice([...services]);
   };
 
-  // const removeService = (index: number) => {
-  //   setServices((prevServices) => {
-  //     const serviceToRemove = prevServices[index].serviceName;
-
-  //     const newServices = prevServices.filter(
-  //       (service) => service.serviceName !== serviceToRemove
-  //     );
-
-  //     updateTotalPrice(newServices);
-  //     return [...newServices]; // Ensure to return a new array reference
-  //   });
-  // };
-
   // Remove a service item
   const removeService = (index: number) => {
     setServices((prevServices) => prevServices.filter((_, i) => i !== index));
@@ -111,8 +100,11 @@ const GenQuotation: React.FC = () => {
     e.preventDefault();
   };
 
-  // Reference for the ReactToPrint library
-  const componentRef = useRef<HTMLDivElement>(null);
+  const { toPDF, targetRef } = usePDF({
+    method: "save",
+    filename: "usepdf-example.pdf",
+    page: { margin: Margin.MEDIUM },
+  });
 
   // JSX structure for the component
   return (
@@ -135,7 +127,7 @@ const GenQuotation: React.FC = () => {
       </form>
 
       <div className="hidden">
-        <div ref={componentRef}>
+        <div ref={targetRef}>
           <Image src="/home.jpg" alt="logo" width={70} height={70} />
           <div className="space-y-1 mt-2">
             <h1 className="text-3xl uppercase font-bold">
@@ -213,17 +205,17 @@ const GenQuotation: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-md mx-auto">
-        {services && (
-          <ReactToPrint
-            trigger={() => (
-              <Button type="submit" className="w-full mt-4" variant="secondary">
-                Download
-              </Button>
-            )}
-            content={() => componentRef.current}
-          />
-        )}
+      <div className="max-w-md mx-auto mt-4">
+        {services.length > 1 ? (
+          <Button
+            variant="secondary"
+            size="lg"
+            className="w-full"
+            onClick={toPDF}
+          >
+            Download PDF
+          </Button>
+        ) : null}
       </div>
     </div>
   );
