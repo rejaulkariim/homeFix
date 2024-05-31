@@ -205,18 +205,6 @@ const GenQuotation: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-md mx-auto mt-4">
-        {services.length > 1 ? (
-          <Button
-            variant="secondary"
-            size="lg"
-            className="w-full"
-            onClick={toPDF}
-          >
-            Download PDF
-          </Button>
-        ) : null}
-      </div>
     </div>
   );
 };
