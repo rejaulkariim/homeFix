@@ -2,10 +2,10 @@ import { SiteConfig } from "@/types";
 
 export const siteConfig: SiteConfig = {
   name: "Home Fix",
-  title: "The Best Aircon Service Experts in Petaling Jaya",
+  title: "The Best Aircon Maintenance Service in Subang Jaya",
   description:
-    "An open source application built using the new router, server components and everything new in Next.js 13.",
-  url: "http://localhost:3000",
+    "We offer Aircon installation, repairs, cleaning, and maintenance to keep your AC running smoothly.",
+  url: "http://homefix.com.my",
   ogImage: "",
   links: {
     twitter: "",
