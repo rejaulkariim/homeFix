@@ -188,8 +188,6 @@ const Hero = () => {
           </div>
         </MaxWidthWrapper>
       </section>
-
-      <div className="bg-slate-50 grainy-light"></div>
     </>
   );
 };

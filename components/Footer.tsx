@@ -13,7 +13,18 @@ const Footer = () => {
           </div>
 
           <div className="flex items-center justify-center">
-            <div className="flex space-x-8">
+            <p>
+              This is website is build by{" "}
+              <Link
+                href="https://appbrews.co"
+                rel="canonical"
+                target="_blank"
+                className="font-bold"
+              >
+                App Brews
+              </Link>
+            </p>
+            {/* <div className="flex space-x-8">
               <Link
                 href="#"
                 className="text-sm text-muted-foreground hover:text-gray-600"
@@ -32,7 +43,7 @@ const Footer = () => {
               >
                 Cookie Policy
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </MaxWidthWrapper>
