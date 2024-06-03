@@ -120,8 +120,8 @@ input[type="number"]::-webkit-outer-spin-button {
   @apply py-10 sm:py-20;
 }
 
-.p-regular {
-  @apply text-sm md:text-base dark:text-gray-400 text-gray-900 leading-10;
+.paragraph {
+  @apply text-base md:text-lg dark:text-gray-400 text-gray-900;
 }
 
 @media print {
