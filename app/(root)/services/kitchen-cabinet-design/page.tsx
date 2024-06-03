@@ -64,7 +64,12 @@ const KitchenCabinetDesignPage = () => {
               </h1>
 
               <p className="text-base sm:text-lg text-foreground dark:text-muted-foreground">
-                We are specialist for Kitchen cabinet design
+                We offer a diverse range of cabinet styles, materials, and
+                finishes to suit your taste and lifestyle. From sleek,
+                minimalist designs to bold statement pieces, our cabinets are
+                crafted with precision and attention to detail. Our focus on
+                quality ensures that each cabinet is not only beautiful but also
+                durable and practical.
               </p>
             </div>
 
@@ -91,17 +96,30 @@ const KitchenCabinetDesignPage = () => {
         </div>
       </MaxWidthWrapper>
 
-      <MaxWidthWrapper>
+      <MaxWidthWrapper className="my-20">
+        <div>
+          <h2 className="text-2xl font-bold">Gallary</h2>
+        </div>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           {gallary.map((item) => (
             <div key={item.id} className="overflow-hidden">
-              <Image
-                src={item.src}
-                alt={item.alt}
-                height={500}
-                width={500}
-                className="object-cover h-64"
-              />
+              <div className="max-w-sm hover:shadow-xl bg-accent/20 rounded-2xl p-4">
+                <div className="w-full h-52 overflow-hidden rounded-xl relative group mt-4 cursor-pointer">
+                  <Image
+                    src={item.src}
+                    height={500}
+                    width={1200}
+                    alt={item.alt}
+                    className="w-full h-full object-cover group-hover:scale-125 duration-1000"
+                  />
+                </div>
+
+                <div className="mt-4">
+                  <h1 className="text-lg font-bold text-foreground">
+                    {item.alt}
+                  </h1>
+                </div>
+              </div>
             </div>
           ))}
         </div>

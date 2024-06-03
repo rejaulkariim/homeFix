@@ -28,7 +28,7 @@ const Services = () => {
             >
               <Image
                 src={item.image}
-                alt="service"
+                alt={item.title}
                 height={100}
                 width={100}
                 className="h-20 w-20 object-cover"
