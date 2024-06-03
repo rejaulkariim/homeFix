@@ -6,7 +6,7 @@ export const siteConfig: SiteConfig = {
   description:
     "We offer Aircon installation, repairs, cleaning, and maintenance to keep your AC running smoothly.",
   url: "http://homefix.com.my",
-  ogImage: "",
+  ogImage: "http://homefix.com.my/og.png",
   links: {
     twitter: "",
     github: "",
