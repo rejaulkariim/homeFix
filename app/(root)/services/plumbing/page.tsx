@@ -6,53 +6,53 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Modern Kitchen Cabinet Design Subang Jaya",
+  title: "Best Plumbing Service in Subang Jaya",
   description: "...",
 };
 
-const gallary = [
-  {
-    id: "1",
-    src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991309/home_fix/ohbh4nbe0vf4l6gsmta5.jpg",
-    alt: "kitchen cabinet design",
-  },
-  {
-    id: "2",
-    src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991623/home_fix/dwq2xnhh2ovdolqzzull.jpg",
-    alt: "kitchen cabinet design",
-  },
-  {
-    id: "3",
-    src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991614/home_fix/y2zjymjopzp57vionz5l.jpg",
-    alt: "kitchen cabinet design",
-  },
-  {
-    id: "4",
-    src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991610/home_fix/p1hugxosn4m1tuxkyn1x.jpg",
-    alt: "kitchen cabinet design",
-  },
-  {
-    id: "5",
-    src: "https://res.cloudinary.com/swiftpos/image/upload/v1696993556/home_fix/zopy5ln3mhambg6wc8qp.jpg",
-    alt: "kitchen cabinet design",
-  },
-  {
-    id: "6",
-    src: "https://res.cloudinary.com/swiftpos/image/upload/v1696993556/home_fix/xvnccwf9o2topvbsr7mn.jpg",
-    alt: "Bedroom Almirah Design",
-  },
-  {
-    id: "7",
-    src: "https://res.cloudinary.com/swiftpos/image/upload/v1696993555/home_fix/bj5vlsjl8lweeij77crn.jpg",
-    alt: "Bedroom Almirah Design",
-  },
-  {
-    id: "8",
-    src: "https://res.cloudinary.com/swiftpos/image/upload/v1696993556/home_fix/sqrhwogv1rfod1b1ke9g.jpg",
-    alt: "Bedroom Almirah Design",
-  },
-];
-const KitchenCabinetDesignPage = () => {
+const PlumbingPage = () => {
+  const gallary = [
+    {
+      id: "1",
+      src: "https://res.cloudinary.com/swiftpos/image/upload/v1697144545/home_fix/s6eqxh5agjplagitq8vf.jpg",
+      alt: "Installation outdoor filter",
+    },
+    {
+      id: "2",
+      src: "https://res.cloudinary.com/swiftpos/image/upload/v1697144545/home_fix/dd2rgq2jfvvdpfrnkqiv.jpg",
+      alt: "Repair",
+    },
+    {
+      id: "3",
+      src: "https://res.cloudinary.com/swiftpos/image/upload/v1697144830/home_fix/lp2p803bwf7bl2kmregs.jpg",
+      alt: "Installation Pump",
+    },
+    {
+      id: "4",
+      src: "https://res.cloudinary.com/swiftpos/image/upload/v1697145119/home_fix/s3pxzitsodvpu2yo2gpj.jpg",
+      alt: "Repair",
+    },
+    {
+      id: "5",
+      src: "https://res.cloudinary.com/swiftpos/image/upload/v1697145119/home_fix/uchpty1ujprqckvfcjdd.jpg",
+      alt: "Repair",
+    },
+    {
+      id: "6",
+      src: "https://res.cloudinary.com/swiftpos/image/upload/v1697145119/home_fix/s3pxzitsodvpu2yo2gpj.jpg",
+      alt: "Repair",
+    },
+    {
+      id: "7",
+      src: "https://res.cloudinary.com/swiftpos/image/upload/v1697144378/home_fix/nos48hmutvfrd34njzb2.jpg",
+      alt: "Repair",
+    },
+    {
+      id: "8",
+      src: "https://res.cloudinary.com/swiftpos/image/upload/v1697144378/home_fix/gv08zrsrsilvdfhxaaz0.jpg",
+      alt: "Repair",
+    },
+  ];
   return (
     <section className="section-padding">
       <MaxWidthWrapper>
@@ -60,16 +60,12 @@ const KitchenCabinetDesignPage = () => {
           <div className="flex flex-col justify-center gap-4">
             <div className="space-y-6">
               <h1 className="text-3xl sm:text-4xl font-bold text-foreground">
-                Modern Kitchen Cabinets Design
+                Expert Plumbing Solutions
               </h1>
 
               <p className="text-base sm:text-lg text-foreground dark:text-muted-foreground">
-                We offer a diverse range of cabinet styles, materials, and
-                finishes to suit your taste and lifestyle. From sleek,
-                minimalist designs to bold statement pieces, our cabinets are
-                crafted with precision and attention to detail. Our focus on
-                quality ensures that each cabinet is not only beautiful but also
-                durable and practical.
+                Clogged drains, leaky pipes, or plumbing emergencies got you
+                down? We&apos;re your one-stop shop for all your plumbing needs!
               </p>
             </div>
 
@@ -86,7 +82,7 @@ const KitchenCabinetDesignPage = () => {
           {/*  Image */}
           <div className="w-full">
             <Image
-              src="https://res.cloudinary.com/swiftpos/image/upload/v1697139862/home_fix/bpvnrku0cujbr53uha9q.jpg"
+              src="https://res.cloudinary.com/swiftpos/image/upload/v1697145119/home_fix/s3pxzitsodvpu2yo2gpj.jpg"
               height={1280}
               width={1920}
               alt="Kitchen Cabinet Design"
@@ -128,4 +124,4 @@ const KitchenCabinetDesignPage = () => {
   );
 };
 
-export default KitchenCabinetDesignPage;
+export default PlumbingPage;

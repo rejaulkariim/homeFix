@@ -1,15 +1,39 @@
 "use client";
 
-import Image from "next/image";
-import Link from "next/link";
+import ServiceCard from "./ServiceCard";
 import MaxWidthWrapper from "./shared/MaxWidthWrapper";
 
 const Services = () => {
   const peeks = [
     {
       title: "Kitchen Cabinets Design",
-      image: "/Kitchen.png",
+      image:
+        "https://res.cloudinary.com/swiftpos/image/upload/v1696991309/home_fix/ohbh4nbe0vf4l6gsmta5.jpg",
       href: "/kitchen-cabinet-design",
+    },
+    {
+      title: "Home Renovation",
+      image:
+        "https://res.cloudinary.com/swiftpos/image/upload/v1697144623/home_fix/litdhnxykrkmydbzqsow.jpg",
+      href: "/home-renovation",
+    },
+    {
+      title: "Electrical Service",
+      image:
+        "https://res.cloudinary.com/swiftpos/image/upload/v1697137400/home_fix/tnvoxa2h0cyppmgveqk0.jpg",
+      href: "/electrical-service",
+    },
+    {
+      title: "Waterproofing",
+      image:
+        "https://res.cloudinary.com/swiftpos/image/upload/v1697140030/home_fix/ifr4g4oi5zxhxjhuv4wq.jpg",
+      href: "/waterproofing",
+    },
+    {
+      title: "Plumbing",
+      image:
+        "https://res.cloudinary.com/swiftpos/image/upload/v1697140378/home_fix/xmvumn9akyxivz9xzapj.jpg",
+      href: "/plumbing",
     },
   ];
   return (
@@ -21,27 +45,8 @@ const Services = () => {
           </h1>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-10">
-          {peeks.map((item) => (
-            <div
-              key={item.title}
-              className="p-8 bg-[#F8F9FA] rounded-2xl flex flex-col justify-center items-center space-y-4"
-            >
-              <Image
-                src={item.image}
-                alt={item.title}
-                height={100}
-                width={100}
-                className="h-20 w-20 object-cover"
-              />
-              <p className="text-xl font-bold">{item.title}</p>
-
-              <Link
-                href={`/services/${item.href}`}
-                className="hover:text-primary underline"
-              >
-                Learn more
-              </Link>
-            </div>
+          {peeks.map((service) => (
+            <ServiceCard key={service.title} service={service} />
           ))}
         </div>
       </MaxWidthWrapper>

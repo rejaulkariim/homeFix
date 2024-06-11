@@ -6,53 +6,53 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Modern Kitchen Cabinet Design Subang Jaya",
+  title: "Best Electrical Service in Subang Jaya",
   description: "...",
 };
 
-const gallary = [
-  {
-    id: "1",
-    src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991309/home_fix/ohbh4nbe0vf4l6gsmta5.jpg",
-    alt: "kitchen cabinet design",
-  },
-  {
-    id: "2",
-    src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991623/home_fix/dwq2xnhh2ovdolqzzull.jpg",
-    alt: "kitchen cabinet design",
-  },
-  {
-    id: "3",
-    src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991614/home_fix/y2zjymjopzp57vionz5l.jpg",
-    alt: "kitchen cabinet design",
-  },
-  {
-    id: "4",
-    src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991610/home_fix/p1hugxosn4m1tuxkyn1x.jpg",
-    alt: "kitchen cabinet design",
-  },
-  {
-    id: "5",
-    src: "https://res.cloudinary.com/swiftpos/image/upload/v1696993556/home_fix/zopy5ln3mhambg6wc8qp.jpg",
-    alt: "kitchen cabinet design",
-  },
-  {
-    id: "6",
-    src: "https://res.cloudinary.com/swiftpos/image/upload/v1696993556/home_fix/xvnccwf9o2topvbsr7mn.jpg",
-    alt: "Bedroom Almirah Design",
-  },
-  {
-    id: "7",
-    src: "https://res.cloudinary.com/swiftpos/image/upload/v1696993555/home_fix/bj5vlsjl8lweeij77crn.jpg",
-    alt: "Bedroom Almirah Design",
-  },
-  {
-    id: "8",
-    src: "https://res.cloudinary.com/swiftpos/image/upload/v1696993556/home_fix/sqrhwogv1rfod1b1ke9g.jpg",
-    alt: "Bedroom Almirah Design",
-  },
-];
-const KitchenCabinetDesignPage = () => {
+const ElectricalServicePage = () => {
+  const gallary = [
+    {
+      id: "1",
+      src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137400/home_fix/tnvoxa2h0cyppmgveqk0.jpg",
+      alt: "Repair DB Box",
+    },
+    {
+      id: "2",
+      src: "https://res.cloudinary.com/swiftpos/image/upload/v1696991604/home_fix/jcmdzxeotp9mn2scvqvo.jpg",
+      alt: "Repair DB Box",
+    },
+    {
+      id: "3",
+      src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137400/home_fix/pspbq2rneez7eobqpobn.jpg",
+      alt: "Install excluter Switch",
+    },
+    {
+      id: "4",
+      src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137400/home_fix/ktazr2fzkhrmkpiwpo10.jpg",
+      alt: "Install DB Box",
+    },
+    {
+      id: "5",
+      src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137400/home_fix/mzdyewolkad3w0lbsm75.jpg",
+      alt: "Repair DB Box",
+    },
+    {
+      id: "6",
+      src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137399/home_fix/w3bn3rbzrfzvo4fg1kcm.jpg",
+      alt: "Install DB Box",
+    },
+    {
+      id: "7",
+      src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137399/home_fix/adnqh6cshgxjwn6morxi.jpg",
+      alt: "Install DB Box",
+    },
+    {
+      id: "8",
+      src: "https://res.cloudinary.com/swiftpos/image/upload/v1697137758/home_fix/rtgdqnpp68vh3bf5jelk.jpg",
+      alt: "Install Light",
+    },
+  ];
   return (
     <section className="section-padding">
       <MaxWidthWrapper>
@@ -60,16 +60,13 @@ const KitchenCabinetDesignPage = () => {
           <div className="flex flex-col justify-center gap-4">
             <div className="space-y-6">
               <h1 className="text-3xl sm:text-4xl font-bold text-foreground">
-                Modern Kitchen Cabinets Design
+                Safe & Reliable Electrical Services
               </h1>
 
               <p className="text-base sm:text-lg text-foreground dark:text-muted-foreground">
-                We offer a diverse range of cabinet styles, materials, and
-                finishes to suit your taste and lifestyle. From sleek,
-                minimalist designs to bold statement pieces, our cabinets are
-                crafted with precision and attention to detail. Our focus on
-                quality ensures that each cabinet is not only beautiful but also
-                durable and practical.
+                Keep your home safe and functioning smoothly with our
+                comprehensive electrical services. We offer a variety of
+                solutions for all your electrical needs, big or small.{" "}
               </p>
             </div>
 
@@ -86,7 +83,7 @@ const KitchenCabinetDesignPage = () => {
           {/*  Image */}
           <div className="w-full">
             <Image
-              src="https://res.cloudinary.com/swiftpos/image/upload/v1697139862/home_fix/bpvnrku0cujbr53uha9q.jpg"
+              src="https://res.cloudinary.com/swiftpos/image/upload/v1697137399/home_fix/adnqh6cshgxjwn6morxi.jpg"
               height={1280}
               width={1920}
               alt="Kitchen Cabinet Design"
@@ -98,7 +95,7 @@ const KitchenCabinetDesignPage = () => {
 
       <MaxWidthWrapper className="my-20">
         <div>
-          <h2 className="text-2xl font-bold">Our Work</h2>
+          <h2 className="text-2xl font-bold">Gallary</h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           {gallary.map((item) => (
@@ -128,4 +125,4 @@ const KitchenCabinetDesignPage = () => {
   );
 };
 
-export default KitchenCabinetDesignPage;
+export default ElectricalServicePage;
