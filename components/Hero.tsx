@@ -93,13 +93,13 @@ const Hero = () => {
         <MaxWidthWrapper>
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             <div className="flex flex-col justify-center gap-4 space-y-1">
-              <h1 className="relative w-fit tracking-tight text-balance font-bold !leading-tight text-foreground text-3xl md:text-4xl">
-                Fast, Reliable <span className="text-primary">Aircon</span>{" "}
-                Servicing
+              <h1 className="relative w-fit tracking-tight text-balance font-bold !leading-tight text-foreground text-3xl md:text-5xl">
+                Best Aircon <span className="text-primary">Servicing</span> and{" "}
+                <span className="text-primary">Installation.</span>
               </h1>
               <p className="paragraph">
-                Is your aircon making you hot & bothered? no worries, we&apos;ve
-                got the fix!
+                We provide expert aircon servicing and installation to keep your
+                AC running smoothly.
               </p>
 
               <div className="flex">
@@ -150,8 +150,8 @@ const Hero = () => {
             {/* Hero image */}
             <div>
               <Image
-                src="https://res.cloudinary.com/swiftpos/image/upload/v1718101106/iywkibkjrweglxi2r5sr.jpg"
-                alt="hero"
+                src="https://res.cloudinary.com/swiftpos/image/upload/v1697139673/home_fix/dg7bnmqfvw0bog40f3lv.jpg"
+                alt="Best Aircon Servicing and Installation in Kajang, Selangor"
                 width={1000}
                 height={1000}
                 className="object-contain object-center rounded-lg"

@@ -2,9 +2,9 @@ import { SiteConfig } from "@/types";
 
 export const siteConfig: SiteConfig = {
   name: "Home Fix",
-  title: "The Best Aircon Maintenance Service in Subang Jaya",
+  title: "Best Aircon Servicing and Installation in Kajang, Selangor",
   description:
-    "We offer Aircon installation, repairs, cleaning, and maintenance to keep your AC running smoothly.",
+    "We provide expert aircon servicing and installation to keep your AC running smoothly.",
   url: "http://homefix.com.my",
   ogImage: "http://homefix.com.my/og.png",
   links: {

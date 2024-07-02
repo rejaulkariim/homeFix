@@ -5,7 +5,11 @@ import { buttonVariants } from "./ui/button";
 
 const ServiceCard = ({ service }: any) => {
   return (
-    <div className="max-w-sm hover:shadow-xl bg-accent/20 rounded-2xl p-4">
+    <div className="max-w-sm hover:shadow-xl bg-accent/20 rounded-2xl p-4 relative">
+      <Link
+        href={`/services${service.href}`}
+        className="absolute inset-0 z-10"
+      />
       <div className="w-full h-52 overflow-hidden rounded-xl relative group mt-4 cursor-pointer">
         <Image
           src={service.image}
@@ -17,14 +21,14 @@ const ServiceCard = ({ service }: any) => {
       </div>
 
       <div className="mt-4">
-        <h1 className="text-lg font-bold text-foreground">{service.name}</h1>
-        <p className="paragraph">{service.title}</p>
+        <h3 className="text-xl font-bold text-primary">{service.title}</h3>
+        {/* <p className="paragraph">{service.title}</p> */}
       </div>
 
       <div className="flex gap-4 mt-4">
         <Link
           href={`/services${service.href}`}
-          className={cn(buttonVariants({ variant: "outline", size: "lg" }))}
+          className={cn(buttonVariants({}))}
         >
           View Details
         </Link>

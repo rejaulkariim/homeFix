@@ -14,13 +14,13 @@ const Services = () => {
     {
       title: "Home Renovation",
       image:
-        "https://res.cloudinary.com/swiftpos/image/upload/v1697144623/home_fix/litdhnxykrkmydbzqsow.jpg",
+        "https://res.cloudinary.com/swiftpos/image/upload/v1719929631/bgyjruqqn3rocfqd3wn6.jpg",
       href: "/home-renovation",
     },
     {
       title: "Electrical Service",
       image:
-        "https://res.cloudinary.com/swiftpos/image/upload/v1697137400/home_fix/tnvoxa2h0cyppmgveqk0.jpg",
+        "https://res.cloudinary.com/swiftpos/image/upload/v1697137400/home_fix/ktazr2fzkhrmkpiwpo10.jpg",
       href: "/electrical-service",
     },
     {

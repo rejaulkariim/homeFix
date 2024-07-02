@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Best Waterproofing Service in Subang Jaya",
+  title: "Best Waterproofing Service in Kajang, Selangor",
   description: "...",
 };
 const WaterproofingPage = () => {
@@ -87,11 +87,11 @@ const WaterproofingPage = () => {
           {/*  Image */}
           <div className="w-full">
             <Image
-              src="/kitchen-cabinet-design.png"
+              src="https://res.cloudinary.com/swiftpos/image/upload/v1696991602/home_fix/qtryo3dqlmrfxw2iontd.jpg"
               height={1280}
               width={1920}
               alt="Kitchen Cabinet Design"
-              className="object-contain rounded-2xl"
+              className="h-96 w-full object-cover rounded-2xl"
             />
           </div>
         </div>

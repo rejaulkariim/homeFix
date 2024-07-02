@@ -13,7 +13,7 @@ const Navbar = () => {
       <MaxWidthWrapper>
         <div className="flex h-14 items-center justify-between">
           <Link href="/" className="flex z-40 font-semibold">
-            <p className="text-xl font-bold">
+            <p className="text-xl font-bold uppercase">
               Home <span className="text-primary">Fix</span>
             </p>
           </Link>
@@ -27,7 +27,7 @@ const Navbar = () => {
                 className: "hidden sm:flex items-center gap-1",
               })}
             >
-              Follow
+              Follow us on Facebook
             </Link>
 
             <div className="sm:hidden">

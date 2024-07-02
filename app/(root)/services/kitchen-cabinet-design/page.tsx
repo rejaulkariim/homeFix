@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Modern Kitchen Cabinet Design Subang Jaya",
+  title: "Best Kitchen Cabinet Design in Kajang, Selangor",
   description: "...",
 };
 
@@ -86,7 +86,7 @@ const KitchenCabinetDesignPage = () => {
           {/*  Image */}
           <div className="w-full">
             <Image
-              src="https://res.cloudinary.com/swiftpos/image/upload/v1697139862/home_fix/bpvnrku0cujbr53uha9q.jpg"
+              src="https://res.cloudinary.com/swiftpos/image/upload/v1696991614/home_fix/y2zjymjopzp57vionz5l.jpg"
               height={1280}
               width={1920}
               alt="Kitchen Cabinet Design"
@@ -103,7 +103,7 @@ const KitchenCabinetDesignPage = () => {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           {gallary.map((item) => (
             <div key={item.id} className="overflow-hidden">
-              <div className="max-w-sm hover:shadow-xl bg-accent/20 rounded-2xl p-4">
+              <div className="max-w-sm bg-accent/20 rounded-2xl p-4">
                 <div className="w-full h-52 overflow-hidden rounded-xl relative group mt-4 cursor-pointer">
                   <Image
                     src={item.src}
@@ -115,9 +115,7 @@ const KitchenCabinetDesignPage = () => {
                 </div>
 
                 <div className="mt-4">
-                  <h1 className="text-lg font-bold text-foreground">
-                    {item.alt}
-                  </h1>
+                  <h1 className="text-lg font-bold text-primary">{item.alt}</h1>
                 </div>
               </div>
             </div>

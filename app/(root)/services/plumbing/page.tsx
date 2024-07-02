@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Best Plumbing Service in Subang Jaya",
+  title: "Best Plumbing Service in Kajang, Selangor",
   description: "...",
 };
 
@@ -20,7 +20,7 @@ const PlumbingPage = () => {
     {
       id: "2",
       src: "https://res.cloudinary.com/swiftpos/image/upload/v1697144545/home_fix/dd2rgq2jfvvdpfrnkqiv.jpg",
-      alt: "Repair",
+      alt: "Repair Tap",
     },
     {
       id: "3",
@@ -29,26 +29,22 @@ const PlumbingPage = () => {
     },
     {
       id: "4",
-      src: "https://res.cloudinary.com/swiftpos/image/upload/v1697145119/home_fix/s3pxzitsodvpu2yo2gpj.jpg",
-      alt: "Repair",
+      src: "https://res.cloudinary.com/swiftpos/image/upload/v1719929692/feaoo6uzqnxwe8atjkkf.jpg",
+      alt: "Install Water Heater",
     },
     {
       id: "5",
       src: "https://res.cloudinary.com/swiftpos/image/upload/v1697145119/home_fix/uchpty1ujprqckvfcjdd.jpg",
-      alt: "Repair",
+      alt: "Repair Tap",
     },
+
     {
       id: "6",
-      src: "https://res.cloudinary.com/swiftpos/image/upload/v1697145119/home_fix/s3pxzitsodvpu2yo2gpj.jpg",
-      alt: "Repair",
-    },
-    {
-      id: "7",
       src: "https://res.cloudinary.com/swiftpos/image/upload/v1697144378/home_fix/nos48hmutvfrd34njzb2.jpg",
       alt: "Repair",
     },
     {
-      id: "8",
+      id: "7",
       src: "https://res.cloudinary.com/swiftpos/image/upload/v1697144378/home_fix/gv08zrsrsilvdfhxaaz0.jpg",
       alt: "Repair",
     },
@@ -99,7 +95,7 @@ const PlumbingPage = () => {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           {gallary.map((item) => (
             <div key={item.id} className="overflow-hidden">
-              <div className="max-w-sm hover:shadow-xl bg-accent/20 rounded-2xl p-4">
+              <div className="max-w-sm bg-accent/20 rounded-2xl p-4">
                 <div className="w-full h-52 overflow-hidden rounded-xl relative group mt-4 cursor-pointer">
                   <Image
                     src={item.src}
@@ -111,9 +107,7 @@ const PlumbingPage = () => {
                 </div>
 
                 <div className="mt-4">
-                  <h1 className="text-lg font-bold text-foreground">
-                    {item.alt}
-                  </h1>
+                  <h1 className="text-lg font-bold text-primary">{item.alt}</h1>
                 </div>
               </div>
             </div>

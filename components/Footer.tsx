@@ -5,6 +5,11 @@ const Footer = () => {
   return (
     <footer className="h-16">
       <MaxWidthWrapper>
+        <div>
+          <p>
+            Address: 27, jalan usj 2/2G, Subang jaya, 47630 Shah Alam, Selangor
+          </p>
+        </div>
         <div className="h-full flex flex-col md:flex-row md:justify-between justify-center items-center">
           <div className="text-center md:text-left pb-2 md:pb-0">
             <p className="text-sm text-muted-foreground">
@@ -14,7 +19,7 @@ const Footer = () => {
 
           <div className="flex items-center justify-center">
             <p>
-              This is website is build by{" "}
+              This website is build by{" "}
               <Link
                 href="https://appbrews.co"
                 rel="canonical"
